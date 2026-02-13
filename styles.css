@@ -1,1 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e5e5e5;
+}
+
+.espacio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.sushi {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arroz {
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tuna {
+    width: 90px;
+    height: 70px;
+    background: linear-gradient(
+    40deg,
+    #F54927 0% 30%,
+    #C7523A 30% 40%,
+    #F54927 40% 65%,
+    #C7523A 65% 75%,
+    #F54927 75% 100%
+    );
+    border-radius: 40% 60% 40% 30% / 40% 40% 60% 50%;
+}
+
+.salmon-top {
+    width: 80px;
+    height: 30px;
+    background: linear-gradient(
+    40deg,
+    #F54927 0% 30%,
+    #C7523A 30% 40%,
+    #F54927 40% 65%,
+    #C7523A 65% 75%,
+    #F54927 75% 100%
+    );
+    border-radius: 40% 60% 40% 30% / 40% 40% 60% 50%;
+    margin-top: -30px;
+}
+
+.salmon-bottom {
+    width: 80px;
+    height: 30px;
+    background: linear-gradient(
+    40deg,
+    #F54927 0% 30%,
+    #C7523A 30% 40%,
+    #F54927 40% 65%,
+    #C7523A 65% 75%,
+    #F54927 75% 100%
+    );
+    border-radius: 40% 60% 40% 30% / 40% 40% 60% 50%;
+    margin-top: -30px;
+}                                                                               
 
